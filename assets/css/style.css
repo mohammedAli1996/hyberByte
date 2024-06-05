@@ -44,8 +44,9 @@ Version: 1.0.5
 -----------------*/
 @import url("https://fonts.googleapis.com/css?family=Rajdhani:400,500,600,700|Poppins:400,500,600,700|Rubik:400,500,600,700|family=Inter:wght@300;400;500;600;700;800&family=Roboto:wght@300;400;500;700&display=swap");
 
+/* 76b900 */
 :root {
-  --main-color: #76b900;
+  --main-color: #27ae60;
   --main-color2: #EE0020;
   --heading-color: #151423;
   --paragraph-color: #616161;
@@ -2075,7 +2076,7 @@ ul {
 
 .navbar-area .nav-container .logo a img {
   height: auto;
-  max-width: 96px;
+  max-width: 150px;
 }
 
 .navbar-area .nav-container .btn-transparent {
