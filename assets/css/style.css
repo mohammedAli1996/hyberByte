@@ -8815,3 +8815,11 @@ ul {
   margin-bottom: 0;
   color: #fff;
 }
+
+.footer-bottom a {
+  color: white;
+}
+
+.footer-bottom a:hover {
+  color: var(--main-color);
+}
