@@ -1087,6 +1087,11 @@ ul {
   color: #fff;
 }
 
+.page-title {
+  text-align: center;
+  margin-bottom: 70px;
+}
+
 .breadcrumb-area .page-list {
   margin: 0;
   padding: 0;
@@ -1420,7 +1425,7 @@ ul {
   background-size: cover !important;
 }
 
-.bg-offwhite{
+.bg-offwhite {
   background: #f8f9fa !important;
 }
 
@@ -2540,6 +2545,20 @@ ul {
   line-height: 80px;
   color: #fff;
   border-radius: 0;
+}
+
+.nav-right-part .right-side {
+  height: 80px;
+  line-height: 80px;
+  color: #fff;
+  border-radius: 0 0 5px 0;
+  background-color: var(--main-color);
+  padding-inline: 30px;
+}
+
+.right-side a {
+  color: #fff !important;
+  margin-inline: 15px !important;
 }
 
 .nav-right-part .btn i {
@@ -6913,7 +6932,7 @@ ul {
 
 .blog-comment .comment-body {
   position: relative;
-  padding-left: 65px;
+  /* padding-left: 65px; */
   margin-bottom: 30px;
 }
 
@@ -6923,12 +6942,21 @@ ul {
 }
 
 .blog-comment .comment-body .avatar {
-  position: absolute;
-  top: 0;
-  left: 0;
-  border-radius: 50%;
+  position: relative;
+  /* top: 0;
+  left: 0; */
+  /* border-radius: 50%;
   height: 45px;
-  width: 45px;
+  width: 45px; */
+}
+
+.comment-author {
+  display: flex;
+  align-items: center;
+}
+
+.comment-author h4 {
+  margin-inline-start: 10px;
 }
 
 .blog-comment .fn a,
@@ -6942,7 +6970,8 @@ ul {
 }
 
 .blog-comment .comment-body .comment-metadata {
-  margin-bottom: 13px;
+  align-self: center;
+  /* margin-bottom: 13px; */
 }
 
 .blog-comment .comment-body .comment-metadata a {
@@ -6999,7 +7028,7 @@ ul {
 
 .blog-comment .reply a {
   position: relative;
-  background-color: var(--main-color);
+  background-color: red;
   font-size: 12px;
   color: #fff;
   text-transform: uppercase;
@@ -8822,4 +8851,226 @@ ul {
 
 .footer-bottom a:hover {
   color: var(--main-color);
+}
+
+.quantity {
+  display: flex;
+  align-items: center;
+}
+
+.quantity input[type=number] {
+  width: 60px;
+  text-align: center;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  height: 38px;
+}
+
+.quantity button {
+  padding: 0 15px;
+  border: 1px solid #ced4da;
+  background-color: #007bff;
+  color: white;
+  height: 38px;
+  border-radius: 0.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.quantity button:hover {
+  background-color: #0056b3;
+}
+
+.quantity button:disabled {
+  background-color: #d6d6d6;
+  cursor: not-allowed;
+}
+
+.quantity button:first-of-type {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.quantity button:last-of-type {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+/* --------------- */
+
+button:focus,
+input:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+
+/*--------------------------*/
+.qty-container {
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+}
+
+.qty-container .input-qty {
+  text-align: center;
+  padding: 6px 10px;
+  border: 1px solid #d4d4d4;
+  max-width: 80px;
+}
+
+.qty-container .qty-btn-minus,
+.qty-container .qty-btn-plus {
+  border: 1px solid #d4d4d4;
+  padding: 10px 13px;
+  font-size: 10px;
+  height: 38px;
+  width: 38px;
+  transition: 0.3s;
+}
+
+.qty-container .qty-btn-plus {
+  margin-left: -1px;
+}
+
+.qty-container .qty-btn-minus {
+  margin-right: -1px;
+}
+
+
+/*---------------------------*/
+.btn-cornered,
+.input-cornered {
+  border-radius: 4px;
+}
+
+.btn-rounded {
+  border-radius: 50%;
+}
+
+.input-rounded {
+  border-radius: 50px;
+}
+
+.remove-btn {
+  background-color: #dc3545;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  color: white;
+  padding-inline: 15px;
+  padding-block: 8px;
+}
+
+/* .content-config {
+  display: none;
+  margin-top: 10px;
+} */
+
+.toggle-button {
+  cursor: pointer;
+
+}
+
+
+.content-config {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+}
+
+.content-config.show {
+  max-height: 500px;
+  /* Set a maximum height large enough to fit the content */
+}
+
+.total-price {
+  font-size: 24px;
+}
+
+.term_of_contract {
+  -webkit-appearance: none !important;
+  -webkit-border-radius: 0;
+  background-color: #FAFAFA;
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeD0iMTJweCIgeT0iMHB4IiB3aWR0aD0iMjRweCIgaGVpZ2h0PSIzcHgiIHZpZXdCb3g9IjAgMCA2IDMiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDYgMyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+PHBvbHlnb24gcG9pbnRzPSI1Ljk5MiwwIDIuOTkyLDMgLTAuMDA4LDAgIi8+PC9zdmc+);
+  background-position: 100% center;
+  background-repeat: no-repeat;
+  border: 1px solid #ccc;
+  padding: .5rem;
+  font-size: .875rem;
+  color: rgba(0, 0, 0, .75);
+  line-height: normal;
+  border-radius: 5px;
+  height: 2.3125rem;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.create-account {
+  text-align: center;
+}
+
+.create-account p {
+  font-size: 16px;
+}
+
+.create-account span {
+  color: var(--main-color);
+  font-size: 16px;
+  font-weight: bold;
+
+}
+
+.forget-pass {
+  font-size: 13px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-inline-start: 10px;
+  text-decoration: underline;
+}
+
+.salutation {
+  background: #F2F7FF;
+  border-radius: 5px;
+  width: 100%;
+  height: 48px;
+  border: 0 !important;
+  padding: 0 10px;
+  color: darkslategrey;
+}
+
+.business-policy{
+  color: grey;
+  font-size: 12px;
+}
+
+.business-policy a{
+  color: var(--main-color);
+  text-decoration: underline;
+}
+
+.nav-link {
+  color: var(--main-color);
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.nav-link:hover{
+  color: var(--main-color);
+}
+
+.already-login a{
+  color: var(--main-color);
+  cursor: pointer;
+  text-decoration: underline;
+  margin-bottom: 20px;
+
+
 }
