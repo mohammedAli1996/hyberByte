@@ -9054,12 +9054,12 @@ a:hover {
   color: darkslategrey;
 }
 
-.business-policy{
+.business-policy {
   color: grey;
   font-size: 12px;
 }
 
-.business-policy a{
+.business-policy a {
   color: var(--main-color);
   text-decoration: underline;
 }
@@ -9070,11 +9070,11 @@ a:hover {
   font-size: 18px;
 }
 
-.nav-link:hover{
+.nav-link:hover {
   color: var(--main-color);
 }
 
-.already-login a{
+.already-login a {
   color: var(--main-color);
   cursor: pointer;
   text-decoration: underline;
@@ -9083,7 +9083,7 @@ a:hover {
 
 }
 
-.locationTab{
+.locationTab {
   border: none;
   padding-inline: 10px;
 }
@@ -9098,14 +9098,17 @@ a:hover {
   font-size: 20px;
   /* font-weight: normal; */
 }
+
 .locationTab .nav-link.active {
   background-color: var(--main-color);
   color: white;
 }
-.tab-content {
-  margin-top: 20px;
-}
 
-.hrSty{
-  margin-block: 40px; margin-inline-end: 30px;
+/* .tab-content {
+  margin-top: 20px;
+} */
+
+.hrSty {
+  margin-block: 40px;
+  margin-inline-end: 30px;
 }
