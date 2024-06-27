@@ -6959,6 +6959,10 @@ ul {
   align-items: center;
 }
 
+.comment-author label {
+  margin-inline-start: 10px;
+}
+
 .comment-author h4 {
   margin-inline-start: 10px;
 }
@@ -9100,4 +9104,8 @@ a:hover {
 }
 .tab-content {
   margin-top: 20px;
+}
+
+.hrSty{
+  margin-block: 40px; margin-inline-end: 30px;
 }
