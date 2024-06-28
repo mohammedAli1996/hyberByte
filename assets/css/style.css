@@ -44,6 +44,20 @@ Version: 1.0.5
 -----------------*/
 @import url("https://fonts.googleapis.com/css?family=Rajdhani:400,500,600,700|Poppins:400,500,600,700|Rubik:400,500,600,700|family=Inter:wght@300;400;500;600;700;800&family=Roboto:wght@300;400;500;700&display=swap");
 
+
+body {
+  -webkit-user-select: text;
+  /* Chrome, Safari, Opera */
+  -moz-user-select: text;
+  /* Firefox */
+  -ms-user-select: text;
+  /* Internet Explorer/Edge */
+  user-select: text;
+  /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+}
+
+
+
 /* 76b900 */
 :root {
   --main-color: #27ae60;
