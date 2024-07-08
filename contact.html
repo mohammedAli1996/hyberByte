@@ -2,12 +2,27 @@
 <html lang="zxx">
 
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DYHPS2WZEY"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-DYHPS2WZEY');
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Iitechie - IT Solutions and Services Html Template</title>
-    <link rel=icon href="assets/img/favicon.webp" sizes="20x20" type="image/png">
+    <title>Cloud Bytech - Premium Dedicated Servers and Cloud VPS Solutions</title>
+    <title>Cloud Bytech - Premium Dedicated Servers and Cloud VPS Solutions</title>
+    <meta name="keywords"
+        content="Cloud By tech ,Cloud Bytech ,Coud Bytech ,Coud By tech , CloudBytech , IT solutions, Dedicated Servers, Cloud VPS, Web Design, App Development, reliable servers, scalable VPS, responsive web design, innovative app development, technology services">
+    <meta name="description"
+        content="Cloud Bytech provides top-notch IT solutions including Dedicated Servers, Cloud VPS, Web Design, and App Development. Our expert team delivers reliable, scalable, and innovative technology services to drive your success.">
+
+    <link rel=icon href="assets/img/6w.png" sizes="20x20" type="image/png">
 
     <!-- Stylesheet -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -20,6 +35,13 @@
     <link rel="stylesheet" href="assets/css/slick.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
+
+    <!-- //toast -->
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css">
+
+
+
 </head>
 
 <body class='sc5'>
@@ -48,37 +70,8 @@
     <div class="body-overlay" id="body-overlay"></div>
 
     <!-- navbar start -->
-    <div class="navbar-top">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6">
-                    <ul class="topbar-right text-md-start text-center">
-                        <li class="d-none d-none d-lg-inline-block">
-                            <p><i class="far fa-clock"></i> Opening Hour 9:00am - 10:00pm</p>
-                        </li>
-                        <li>
-                            <p><i class="far fa-envelope"></i> exam@gmail.com</p>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-sm-6">
-                    <ul class="topbar-right text-md-end text-center">
-                        <li class="d-none d-none d-lg-inline-block">
-                            <p>Hot Line: <span>(+00)-333-444-5555</span></p>
-                        </li>
-                        <li class="social-area">
-                            <p class="d-inline-block">Follow Us On:</p>
-                            <a href="#"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
-                            <a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a>
-                            <a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a>
-                            <a href="#"><i class="fab fa-pinterest" aria-hidden="true"></i></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-    <nav class="navbar navbar-area navbar-expand-lg">
+
+    <nav class="navbar navbar-area navbar-area-1 navbar-expand-lg">
         <div class="container nav-container navbar-bg">
             <div class="responsive-mobile-menu">
                 <button class="menu toggle-btn d-block d-lg-none" data-target="#Iitechie_main_menu"
@@ -88,73 +81,59 @@
                 </button>
             </div>
             <div class="logo">
-                <a href="index.html"><img src="assets/img/logo.webp" alt="img"></a>
+                <a href="index.html"><img src="assets/img/6.png" alt="cloud by tech logo , cloud bytech logo"></a>
             </div>
             <div class="nav-right-part nav-right-part-mobile">
-                <a class="search-bar-btn" href="#">
-                    <i class="fa fa-search"></i>
-                </a>
+
+                <a href="cart.html"><i class="fa fa-shopping-cart"></i></a>
+                <a href="cart.html"><i class="fa fa-user"></i></a>
+
             </div>
             <div class="collapse navbar-collapse" id="Iitechie_main_menu">
                 <ul class="navbar-nav menu-open text-lg-end">
-                    <li class="menu-item-has-children">
-                        <a href="#">Home</a>
-                        <ul class="sub-menu">
-                            <li><a href="index.html">Home 01</a></li>
-                            <li><a href="index-2.html">Home 02</a></li>
-                            <li><a href="index-3.html">Home 03</a></li>
-                            <li><a href="index-4.html">Home 04</a></li>
-                            <li><a href="index-5.html">Home 05</a></li>
-                        </ul>
+                    <li>
+                        <a href="index.html">Home</a>
                     </li>
-                    <li class="menu-item-has-children">
-                        <a href="#">Service</a>
-                        <ul class="sub-menu">
-                            <li><a href="service.html">Service</a></li>
-                            <li><a href="service-details.html">Service Single</a></li>
-                        </ul>
+                    <li>
+                        <a href="index.html#dds">Dedicated Servers</a>
                     </li>
-                    <li class="menu-item-has-children">
-                        <a href="#">Pages</a>
-                        <ul class="sub-menu">
-                            <li><a href="about.html">About Us</a></li>
-                            <li><a href="team.html">Team</a></li>
-                            <li><a href="team-details.html">Team Details</a></li>
-                            <li><a href="project.html">Project</a></li>
-                            <li><a href="project-details.html">Project Details</a></li>
-                        </ul>
+                    <li>
+                        <a href="about.html">About us</a>
                     </li>
-                    <li class="menu-item-has-children">
-                        <a href="#">Blog</a>
-                        <ul class="sub-menu">
-                            <li><a href="blog.html">Blog</a></li>
-                            <li><a href="blog-details.html">Blog Details</a></li>
-                        </ul>
+                    <li>
+                        <a href="index.html#services">Our Services</a>
                     </li>
-                    <li><a href="contact.html">Contact Us</a></li>
+                    <li>
+                        <a href="contact.html">Contact Us</a>
+                    </li>
                 </ul>
             </div>
             <div class="nav-right-part nav-right-part-desktop align-self-center">
-                <a class="search-bar-btn" href="#">
-                    <i class="fa fa-search"></i>
-                </a>
-                <a class="btn btn-base" href="#">Get Started</a>
+                <div class="right-side">
+                    <a href="cart.html"><i class="fa fa-shopping-cart"></i></a>
+                    <a href="login.html"><i class="fa fa-user"></i></a>
+
+                </div>
+
+
             </div>
         </div>
     </nav>
     <!-- navbar end -->
 
+    <!-- navbar end -->
+
     <!-- page title start -->
     <div class="breadcrumb-area bg-black bg-relative">
-        <div class="banner-bg-img" style="background-image: url('./assets/img/bg/1.webp');"></div>
+        <div class="banner-bg-img bg-about"></div>
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-xl-7 col-lg-8">
                     <div class="breadcrumb-inner text-center">
-                        <h2 class="page-title">Contact</h2>
+                        <h2 class="page-title">Contact Us</h2>
                         <ul class="page-list">
                             <li><a href="index.html">Home</a></li>
-                            <li>Contact</li>
+                            <li>Contact Us</li>
                         </ul>
                     </div>
                 </div>
@@ -185,7 +164,7 @@
                         <div class="details-wrap">
                             <div class="details-inner">
                                 <h3>Office address</h3>
-                                <p>7895 Piermont, Albuquerque, NM 198866, USA</p>
+                                <p>Sheridan, WY 82801, USA.</p>
                             </div>
                         </div>
                     </div>
@@ -198,7 +177,7 @@
                         <div class="details-wrap">
                             <div class="details-inner">
                                 <h3>Email Address</h3>
-                                <p>support@gmail.com <br> www.infomar.net</p>
+                                <p>info@cloudbytech.com</p>
                             </div>
                         </div>
                     </div>
@@ -211,7 +190,7 @@
                         <div class="details-wrap">
                             <div class="details-inner">
                                 <h3>Phone Number</h3>
-                                <p>+012 (345) 678 99 <br> +12345678</p>
+                                <p>+012 (000) 000 00</p>
                             </div>
                         </div>
                     </div>
@@ -221,128 +200,89 @@
     </div>
     <!-- team area end -->
 
-    <div class="g-map-inner">
-        <iframe
-            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14604.929175165831!2d90.36542960000001!3d23.774741049999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1639502123533!5m2!1sen!2sbd"></iframe>
-    </div>
-    <div class="g-map-contact">
-        <div class="row justify-content-end">
-            <div class="col-lg-5 col-md-7">
-                <form class="contact-form-wrap" action="mail.php" method="post" id="contact-form">
-                    <div class="consulting-contact-form mx-4">
-                        <h3 class="mb-3">Free consulting </h3>
-                        <div class="single-input-inner style-bg">
-                            <input type="text" name="name" placeholder="Full Name">
-                        </div>
-                        <div class="single-input-inner style-bg">
-                            <input type="text" name="email" placeholder="Email Address">
-                        </div>
-                        <div class="single-input-inner style-bg">
-                            <textarea name="message" placeholder="Message"></textarea>
-                        </div>
-                        <div class="btn-wrap pb-3">
-                            <button type="submit" class="btn btn-base">Submit Now </button>
-                        </div>
-                        <p class="form-messege mb-0 mt-20 text-center"></p>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </div>
 
-    <!-- call to action start -->
-    <div class="call-to-action-area pd-top-120 pd-bottom-120 text-center bg-overlay-base"
-        style="background-image: url('./assets/img/bg/5.webp');">
+    <div class="call-to-action-area pd-top-120 pd-bottom-120 text-center bg-offwhite"
+        style="background-image: url('./assets/img/bg/contact2.jpg');" id="contactUs">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-lg-6 col-md-8">
-                    <div class="single-call-to-action-inner style-white">
-                        <h5>We are here to answer your questions 24/7</h5>
-                        <h2>Need for it solution services</h2>
-                        <a class="btn btn-black mt-3" href="contact.html">Contact With Us</a>
+                <div class="contact-form-area pd-top-40">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-md-8">
+                                <div class="consulting-contact-form">
+                                    <h3>Get in touch with us</h3>
+                                    <p class="mb-4">We are here to answer your questions 24/7
+                                    </p>
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <div class="single-input-inner style-border">
+                                                <input type="text" placeholder="Full Name">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="single-input-inner style-border">
+                                                <input type="text" placeholder="Email">
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="single-input-inner style-border">
+                                                <textarea placeholder="Message"></textarea>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 pb-3">
+                                            <button class="btn btn-base">Send</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+
     </div>
-    <!-- call to action start -->
 
     <!-- footer area start -->
-    <footer class="footer-area bg-cover" style="background-image: url('./assets/img/bg/2.webp');">
+    <footer class="footer-area bg-black bg-cover" style="background-image: url('./assets/img/bg/13.jpg');">
         <div class="container">
             <div class="row">
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-4 col-md-6">
                     <div class="widget widget_about">
-                        <h4 class="widget-title">About company</h4>
+                        <a href="index.html"><img src="assets/img/6w.png" alt="cloud bytech logo , cloud by tech logo"
+                                width="45%"></a>
                         <div class="details">
-                            <p>Address</p>
-                            <p>Melbourne’s GPO 434 VIC 3074, Australia.</p>
-                            <ul class="social-media">
-                                <li>
-                                    <a class="facebook" href="#">
-                                        <i class="fab fa-facebook-f"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a class="twitter" href="#">
-                                        <i class="fab fa-twitter"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a class="instagram" href="#">
-                                        <i class="fab fa-instagram"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a class="youtube" href="#">
-                                        <i class="fab fa-youtube"></i>
-                                    </a>
-                                </li>
-                            </ul>
+                            <p class="m-3" style="color: lightgrey;">
+                                The Cloud By Tech website is owned and managed by Coud ByTech LLC, registered at 30 N
+                                Gould St Ste R, Sheridan, WY 82801, USA.</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="widget widget_nav_menu">
-                        <h4 class="widget-title">Service</h4>
-                        <ul>
-                            <li><a href="service.html">Web design</a></li>
-                            <li><a href="service.html">Digital marketing </a></li>
-                            <li><a href="service.html">It management</a></li>
-                            <li><a href="service.html">Cloud services</a></li>
-                            <li><a href="service.html">Machine learning</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
+
+                <div class="col-lg-4 col-md-6">
                     <div class="widget widget_nav_menu">
                         <h4 class="widget-title">Useful link</h4>
                         <ul>
-                            <li><a href="about.html">About Us</a></li>
-                            <li><a href="team.html">Team </a></li>
-                            <li><a href="project.html">Portfolio</a></li>
-                            <li><a href="service.html">Service</a></li>
-                            <li><a href="contact.html">Contact Us</a></li>
+                            <li><a href="index.html#dds">Dedicated Servers</a></li>
+                            <li><a href="index.html#wcu">Why Choose Us</a></li>
+                            <li><a href="index.html#services">Our Services</a></li>
+                            <li><a href="about.html">About cloud Bytech</a></li>
+                            <li><a href="contact.html">Contact us</a></li>
                         </ul>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-4 col-md-6">
                     <div class="widget widget_subscribe">
-                        <h4 class="widget-title">Contact us</h4>
+                        <h4 class="widget-title mb-1">Contact us</h4>
                         <div class="single-input-inner style-border style-bg-none">
                             <input type="text" placeholder="Your Email">
                             <button><i class="fa fa-arrow-right"></i></button>
                         </div>
-                        <label><input type="checkbox">Maecenas tempususcondime honcus sem quam libero</label>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="footer-bottom text-center">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 align-self-center">
-                        <p>© 2024. All Rights Reserved</p>
+                        <h4 class="widget-title mt-3 mb-1">Email us</h4>
+                        <div class="single-input-inner style-border style-bg-none">
+                            <a href="mailto:info@cloudbytech.com" style="color: white; ">info@cloudbytech.com</a>
+
+                        </div>
                     </div>
                 </div>
             </div>
